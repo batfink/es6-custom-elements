@@ -25,4 +25,4 @@ class MyElement extends HTMLElement {
 
 }
 
-var MyElement = document.registerElement('my-element', MyElement);
+document.registerElement('my-element', MyElement);

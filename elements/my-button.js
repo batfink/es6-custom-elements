@@ -18,7 +18,7 @@ class MyButton extends HTMLButtonElement {
 
 }
 
-var MyButton = document.registerElement('my-button', {
+document.registerElement('my-button', {
     prototype: MyButton.prototype,
     extends: 'button'
 });

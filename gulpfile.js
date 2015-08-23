@@ -16,4 +16,5 @@ gulp.task('default', function() {
     });
 
     gulp.watch(['elements/*'], reload);
+    gulp.watch(['www/*'], reload);
 });

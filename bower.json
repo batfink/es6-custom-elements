@@ -1,9 +1,7 @@
 {
-  "authors": [
-    "Victor Nystad <vnystad@gmail.com>"
-  ],
+  "name": "es6-custom-elements",
   "devDependencies": {
-    "normalize-css": "~3.0.3",
-    "document-register-element": "~0.4.5"
+    "document-register-element": "~0.4.5",    
+    "normalize-css": "~3.0.3"
   }
 }

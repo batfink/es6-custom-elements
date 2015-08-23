@@ -1,4 +1,7 @@
 {
+  "authors": [
+    "Victor Nystad <vnystad@gmail.com>"
+  ],
   "devDependencies": {
     "normalize-css": "~3.0.3",
     "document-register-element": "~0.4.5"

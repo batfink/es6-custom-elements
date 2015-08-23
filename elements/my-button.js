@@ -1,3 +1,5 @@
+'use strict';
+
 class MyButton extends HTMLButtonElement {
 
     createdCallback() {

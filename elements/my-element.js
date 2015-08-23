@@ -1,3 +1,5 @@
+'use strict';
+
 var tag = document.createElement.bind(document);
 
 class MyElement extends HTMLElement {

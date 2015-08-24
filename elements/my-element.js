@@ -5,7 +5,8 @@ var tag = document.createElement.bind(document);
 class MyElement extends HTMLElement {
 
     createdCallback() {
-        console.log('my element created')
+        console.log('my element created');
+        console.log('my-element instance of MyElement?', this instanceof MyElement);
     }
 
     attachedCallback() {
@@ -25,4 +26,6 @@ class MyElement extends HTMLElement {
 
 }
 
-document.registerElement('my-element', MyElement);
+document.registerElement('my-element', {
+    prototype: MyElement.prototype
+});

@@ -4,6 +4,7 @@ class MyButton extends HTMLButtonElement {
 
     createdCallback() {
         console.log('my-button created');
+        console.log('my-button instance of MyButton?', this instanceof MyButton);
         this.textContent = 'MyButton extends HTMLButtonElement';
     }
 
